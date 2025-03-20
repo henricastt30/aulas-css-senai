@@ -64,6 +64,10 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.posts .card{
+    width: 360px;
+}
+
 .posts img{
     border-radius: 20px 20px 0 0;
 }
@@ -76,6 +80,7 @@ nav ul li a:hover{
 .posts h4{
     margin-left: 16px;
     font-weight: normal;
+    font-size: 18px;
 }
 
 .posts p{
@@ -83,9 +88,51 @@ nav ul li a:hover{
 }
 
 .posts a{
-    background-color: #65558f;
+    background: #65558f;
     color: #fff;
     padding: 10px 24px;
     border-radius: 100px;
     font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.posts a:hover{
+    background: #48396d;
+}
+
+#footer-top .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 97px auto 63px;
+    border-top: 1px solid #cac4d0;
+}
+
+.posts .footer-card{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .link-group{
+    margin-top: 22px;
+}
+
+.container .link-group a{
+    display: block;
+    margin: 16px 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #d9d9d9;
+}
+
+.footer-bottom p{
+    color: #000;
+    margin: 18px auto;
+    font-weight: 500;
 }
