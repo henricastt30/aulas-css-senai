@@ -8,6 +8,7 @@
     --primary-color: #47beba;
     --secundary-color: #f22e52;
     --texte-color-button: #fff;
+    --terciary-color: #160647;
     --padding-button: 1rem 2rem;
 }
 
@@ -36,18 +37,19 @@ h1{
     font-family: "Biryani", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    color: #160647
+    color: var(--terciary-color);
 }
 
 h3{
     text-align: center;
     font-size: 48px;
     font-weight: bold;
+    margin: 100px 0;
 }
 
 a{
     text-decoration: none;
-    color: #160647;
+    color: var(--terciary-color);
 
 }
 
@@ -105,7 +107,7 @@ nav ul li{
 
 .cta h2{
     font-size: 64px;
-    color: #160647;
+    color: var(--terciary-color);
     text-align: center;
 }
 
@@ -161,4 +163,133 @@ nav ul li{
 
 .about-us .container .about-us-description p{
     padding: 23px 116px 27px 0;
+}
+
+/* Our Fatures */
+
+.our-features .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-features .container .card{
+    width: 300px;
+    padding: 48px 32px ;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.our-features .container .card .icon-card{
+    margin-right: 36px;
+}
+
+.our-features h4{
+    font-size: 20px;
+    color: var(--terciary-color);
+}
+
+.our-features p{
+    color: #7a8994;
+    margin: 25px 0 21px;
+}
+
+.our-features a{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.our-features a:hover{
+    text-decoration: underline;
+}
+
+/* Testimonials */
+
+.testimonials .container{
+    width: 821px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials h3{
+    width: 498px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.testimonials .testimonials-card{
+    width: 339px;
+    padding: 50px 30px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+.testimonials-card .perfil{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.testimonials-card .perfil .photo-perfil{
+    margin-right: 16px;
+}
+
+.testimonials-card h4{
+    font-size: 20px;
+    color: var(--terciary-color);
+}
+
+.testimonials-card p{
+    color: #7a8994;
+}
+
+/* Works */
+
+.works .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.works .works-img{
+    margin-right: 48px;
+}
+
+.works .description-work h4{
+    font-size: 20px;
+    color: var(--terciary-color);
+    margin-bottom: 18px;
+}
+
+.works .description-work h4 span{
+    border: 1px solid var(--terciary-color);
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 29px;
+}
+
+.works .content-description-work{
+    border-left: 1px dashed #b4b4b4;
+    margin-left: 15px;
+    padding-left: 42px;
+    height: 300px;
+}
+
+.works .content-description-work ul{
+    list-style: none;
+    padding-left: 42px;
+    font-size: 14px;
+    color: var(--terciary-color);
+    line-height: 2;
+    margin-top: 43px;
+}
+
+/* Ready */
+
+.ready fieldset{
+    display: flex;
+    justify-content: space-between;
+    border: none;
 }
